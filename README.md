@@ -201,6 +201,8 @@ Measure product dominance
 9.2 Product Performance Classification
 
 Products can be segmented based on revenue and quantity:
+<img width="847" height="276" alt="image" src="https://github.com/user-attachments/assets/f744488d-aad8-40b3-b6f5-a7369674aabb" />
+
 
 Revenue Level	Quantity Level	Interpretation
 High	High	Strong Performer
