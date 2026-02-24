@@ -63,6 +63,7 @@ Each row represents one sales transaction.
 Before performing calculations, the dataset was explored to assess structure and quality.
 
 5.1 Dataset Dimensions
+
 <img width="641" height="72" alt="image" src="https://github.com/user-attachments/assets/5229a5c5-5f2a-4388-b825-6208e2b345ed" />
 
 Returns:
@@ -71,12 +72,14 @@ Returns:
 Understanding dataset size helps estimate computational complexity and data coverage.
 
 5.2 Column Verification
+
 <img width="635" height="75" alt="image" src="https://github.com/user-attachments/assets/beb61c9b-153c-4037-b356-d9b40080d041" />
 
 
 Ensures expected fields are present and properly named.
 
 5.3 Data Type Inspection
+
 <img width="613" height="80" alt="image" src="https://github.com/user-attachments/assets/a200b857-563e-47ec-b3f4-4056f09d8660" />
 
 
@@ -91,6 +94,7 @@ Product → Categorical
 Correct data types are required for arithmetic operations.
 
 5.4 Missing Value Detection
+
 <img width="602" height="80" alt="image" src="https://github.com/user-attachments/assets/6293702c-6ed4-4ba1-b184-1061471e9fb3" />
 
 
@@ -101,6 +105,7 @@ Missing values can distort aggregated metrics and must be addressed before analy
 Reliable analysis requires clean and consistent data.
 
 6.1 Duplicate Removal
+
 <img width="560" height="82" alt="image" src="https://github.com/user-attachments/assets/053b7205-1633-4d37-8a99-86d36f90928e" />
 
 
@@ -116,12 +121,14 @@ Removing duplicates ensures analytical accuracy.
 
 6.2 Handling Missing Values
 Numeric Columns
+
 <img width="668" height="106" alt="image" src="https://github.com/user-attachments/assets/cc82dfd5-f136-428b-a011-4f5797514a8b" />
 
 
 Missing numeric values are replaced with 0 to prevent computational errors.
 
 Categorical Columns
+
 <img width="653" height="107" alt="image" src="https://github.com/user-attachments/assets/c8c2e861-5d9f-4ff9-acd8-4b1c41217c33" />
 
 
@@ -146,6 +153,7 @@ This creates a new column required for financial performance evaluation.
 
 8️⃣ Key Performance Metrics
 8.1 Total Revenue
+
 <img width="595" height="78" alt="image" src="https://github.com/user-attachments/assets/9537b688-41c0-4018-97e2-fb684e188beb" />
 
 
@@ -156,12 +164,14 @@ Total Revenue = Σ (Quantity × Price)
 Indicates total earnings generated from sales.
 
 8.2 Total Quantity Sold
+
 <img width="622" height="82" alt="image" src="https://github.com/user-attachments/assets/ffef16d6-4aae-4fcc-a802-a764ddd55d2a" />
 
 
 Represents overall sales volume across all products.
 
 8.3 Average Revenue per Transaction
+
 <img width="615" height="85" alt="image" src="https://github.com/user-attachments/assets/2e8b4241-8226-40ab-9de4-7b850a4bce9b" />
 
 
@@ -172,6 +182,7 @@ Average Revenue = Total Revenue / Number of Transactions
 This metric measures transaction-level revenue efficiency.
 
 8.4 Best-Selling Product
+
 <img width="847" height="78" alt="image" src="https://github.com/user-attachments/assets/1cd7fece-414d-4e83-8bc1-93382fe94646" />
 
 
@@ -208,6 +219,7 @@ Measure product dominance
 9.2 Product Performance Classification
 
 Products can be segmented based on revenue and quantity:
+
 <img width="847" height="276" alt="image" src="https://github.com/user-attachments/assets/f744488d-aad8-40b3-b6f5-a7369674aabb" />
 
 
