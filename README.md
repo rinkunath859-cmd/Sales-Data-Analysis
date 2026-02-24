@@ -1,4 +1,5 @@
 📊 SALES DATA ANALYSIS 
+
 1️⃣ Introduction
 
 Sales data analysis is a fundamental component of business intelligence. It enables organizations to evaluate revenue performance, understand product demand, and support strategic decision-making.
